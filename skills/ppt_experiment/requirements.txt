@@ -1,0 +1,6 @@
+# ppt_experiment 필수 패키지 (python -m pip install -r requirements.txt)
+python-pptx>=0.6.21
+Pillow>=9.2
+PyMuPDF
+numpy
+matplotlib

@@ -1,0 +1,9 @@
+# ppt 스킬 필수 패키지 (python -m pip install -r requirements.txt)
+python-pptx>=0.6.21
+lxml
+Pillow>=9.2
+PyMuPDF
+numpy
+scipy
+# 선택: matplotlib 그래프를 그릴 때
+matplotlib

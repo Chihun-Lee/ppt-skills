@@ -1,0 +1,10 @@
+# Windows에서 받아도 스크립트가 깨지지 않게 — 글 파일은 LF, cmd만 CRLF
+* text=auto eol=lf
+*.cmd    text eol=crlf
+*.pptx   binary
+*.ttf    binary
+*.jpg    binary
+*.jpeg   binary
+*.png    binary
+*.pdf    binary
+*.zip    binary

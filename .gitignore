@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*.tmp
+# 예시 덱 실행 산출물
+skills/*/examples/*/output/
+skills/*/examples/*/render/
+skills/*/examples/*/assets/_prep/
+skills/ppt_experiment/examples/demo/images/
+# 개인 작업 기록 (공개 금지)
+_작업/
+_진행상황.md
+dist/
