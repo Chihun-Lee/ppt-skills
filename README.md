@@ -110,6 +110,7 @@ ppt-skills/
 - 자료 내용은 Claude(Anthropic)로 전송된다. 보안 등급이 있는 자료는 기관 기준을 먼저 확인한다.
 - 다른 기관·회사 로고는 그 기관 명의의 발표이거나 사용 허락을 받은 경우에만 쓴다.
 - 미리보기는 LibreOffice 렌더라 PowerPoint와 줄바꿈이 조금 다를 수 있다. 최종 확인은 PowerPoint로 한다.
+- 1.0.0은 macOS(Claude Code + LibreOffice)에서 설치부터 예시 덱까지 시험했다. Windows는 경로·글꼴 등록·인코딩을 대응해 두었지만 실제 Windows PC 시험은 아직이다. 문제가 생기면 `doctor.py` 출력과 함께 이슈로 알려 주면 고친다.
 
 ## 라이선스·출처
 

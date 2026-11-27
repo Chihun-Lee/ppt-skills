@@ -82,6 +82,8 @@ python3 "$HOME/.claude/skills/ppt/scripts/logo.py" set "<로고 파일>"     # �
 python3 "$HOME/.claude/skills/ppt/scripts/logo.py" text "기관·팀 이름"   # 이름만 받았을 때
 python3 "$HOME/.claude/skills/ppt/scripts/logo.py" welcomed              # 안내를 마쳤다고 기록(①·② 모두)
 ```
+- ②를 고르면 로고는 묻지 않는다(그 양식은 로고를 넣지 않는다). `welcomed`만 기록하면 된다 — `logo.py welcomed`와 `ppt_experiment/scripts/welcome.py welcomed`는 같은 설정(`~/.ppt_skills/config.json`)에 같은 표시를 남기므로 어느 쪽을 써도 된다.
+- 사용자에게 물을 수 없는 실행(자동화·예약 작업)이면 요청 내용으로 고르고, 로고는 자리표시로 두고, 그렇게 했다고 결과 보고에 적는다.
 - 그다음 고른 스킬의 `SKILL.md`(`~/.claude/skills/ppt/SKILL.md` 또는 `~/.claude/skills/ppt_experiment/SKILL.md`)를 읽고 그 절차로 PPT를 만든다. `<스킬>` 자리는 그 SKILL.md가 있는 폴더의 절대경로다.
 - 이후 새 대화에서는 Claude Code를 다시 시작하면 `/ppt`, `/ppt_experiment`로 바로 부를 수 있다고 알린다.
 
